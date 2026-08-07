@@ -1,0 +1,29 @@
+# Runtime artifacts
+data/
+outputs/
+checkpoints/
+wandb/
+logs/
+*.log
+*.out
+*.pt
+*.bin
+*.safetensors
+*.parquet
+
+# Downloaded benchmark resources
+agent_system/environments/env_package/webshop/webshop/data/
+agent_system/environments/env_package/webshop/webshop/search_engine/indexes*/
+
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage*
+.venv/
+venv/
+.env
+*.egg-info/
+build/
+dist/
+.DS_Store

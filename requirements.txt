@@ -1,0 +1,23 @@
+# Install a CUDA-compatible PyTorch build before this file.
+accelerate
+codetiming
+datasets
+dill
+hydra-core
+liger-kernel
+numpy
+packaging>=20.0
+pandas
+peft
+pyarrow>=19.0.0
+pybind11
+pylatexenc
+qwen-vl-utils[decord]
+ray[default]>=2.41.0,<=2.50.0
+requests
+tensordict>=0.8.0,<=0.10.0,!=0.9.0
+torchdata
+tqdm
+transformers<=4.57.3
+vllm>=0.8.5,<=0.11.0
+wandb

@@ -1,0 +1,17 @@
+defaults:
+  - trial_trainer
+  - _self_
+
+env:
+  env_name: Webshop
+  max_steps: 15
+
+actor_rollout_ref:
+  actor:
+    trial:
+      outcome_view: trajectory_context
+      dense_coef: 0.005
+      outcome_observation_cap: 512
+
+trainer:
+  experiment_name: trial_webshop
