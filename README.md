@@ -1,6 +1,8 @@
 # TRIAL
 
-Official code for *Trajectory-Relative Hindsight Allocation for Agentic Reinforcement Learning*.
+Official code for [*Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning*](https://arxiv.org/abs/2608.07371).
+
+The paper is available on [arXiv:2608.07371](https://arxiv.org/abs/2608.07371).
 
 ![TRIAL overview](assets/method-overview.png)
 
@@ -43,8 +45,11 @@ BENCHMARK=webshop bash scripts/evaluate.sh
 Evaluation loads the checkpoint without training. It evaluates all 134 ALFWorld in-distribution games or all 500 WebShop test goals.
 
 ```bibtex
-@misc{trial,
-  title = {Trajectory-Relative Hindsight Allocation for Agentic Reinforcement Learning},
-  note = {Citation metadata will be added with the public paper release}
+@article{zheng2026trajectory,
+  title = {Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning},
+  author = {Zheng, Haoyu and Zhu, Yun and Wang, Qing and Zhang, Wenqiao},
+  journal = {arXiv preprint arXiv:2608.07371},
+  year = {2026},
+  url = {https://arxiv.org/abs/2608.07371}
 }
 ```
