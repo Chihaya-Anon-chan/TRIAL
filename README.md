@@ -2,6 +2,8 @@
 
 Official code for *Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning*.
 
+Accepted to **EACL 2027 Findings**.
+
 [![arXiv](https://img.shields.io/badge/arXiv-2608.07371-b31b1b.svg)](https://arxiv.org/abs/2608.07371)
 
 ![TRIAL overview](assets/method-overview.png)
@@ -45,11 +47,12 @@ BENCHMARK=webshop bash scripts/evaluate.sh
 Evaluation loads the checkpoint without training. It evaluates all 134 ALFWorld in-distribution games or all 500 WebShop test goals.
 
 ```bibtex
-@article{zheng2026trajectory,
+@inproceedings{zheng2027trajectory,
   title = {Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning},
   author = {Zheng, Haoyu and Zhu, Yun and Wang, Qing and Zhang, Wenqiao},
-  journal = {arXiv preprint arXiv:2608.07371},
-  year = {2026},
+  booktitle = {Findings of the Association for Computational Linguistics: EACL 2027},
+  year = {2027},
+  note = {Forthcoming},
   url = {https://arxiv.org/abs/2608.07371}
 }
 ```
